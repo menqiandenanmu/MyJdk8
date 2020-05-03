@@ -6,13 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MyJdk8" />
         <module name="stream" />
+        <module name="MyJdk8" />
+        <module name="leetcode" />
+        <module name="message" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="leetcode" target="1.8" />
+      <module name="message" target="1.8" />
       <module name="MyJdk8" target="1.5" />
       <module name="stream" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="GENERATE_NO_WARNINGS" value="true" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="leetcode" options="-parameters" />
+      <module name="message" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @Description:
@@ -20,10 +21,16 @@ public class ToStudentTest {
         studentB.setId(2L);
         studentB.setName("B");
         studentB.setAge(22);
+        Student studentC =new Student();
+        studentC.setId(2L);
+        studentC.setName("C");
+        studentC.setAge(22);
         List<Student> studentList =new ArrayList<Student>();
         studentList.add(studentA);
         studentList.add(studentB);
-        System.out.println(studentList.toString());
-        System.out.println(studentList.stream().collect(Collectors.toList()));
+
+        studentList.add(studentC);
+        StreamModel streamModel =new StreamModel();
+        streamModel.toMap(studentList);
     }
 }
