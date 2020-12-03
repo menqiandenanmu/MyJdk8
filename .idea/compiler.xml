@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="stream" />
-        <module name="MyJdk8" />
+        <module name="nanmu" />
         <module name="leetcode" />
+        <module name="nanmupublic" />
         <module name="message" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,8 @@
       <module name="leetcode" target="1.8" />
       <module name="message" target="1.8" />
       <module name="MyJdk8" target="1.5" />
+      <module name="nanmu" target="1.8" />
+      <module name="nanmupublic" target="1.7" />
       <module name="stream" target="8" />
     </bytecodeTargetLevel>
   </component>

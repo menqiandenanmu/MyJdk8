@@ -6,8 +6,13 @@
 
     <groupId>groupId</groupId>
     <artifactId>MyJdk8</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-<dependencies>
+    <modules>
+        <module>nanmu</module>
+        <module>nanmu-public</module>
+    </modules>
+    <dependencies>
 
 
     <dependency>

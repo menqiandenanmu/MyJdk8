@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="nanmu:war">
+    <output-path>$PROJECT_DIR$/nanmu/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>nanmu</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="com.nanmu.war">
+      <element id="artifact" artifact-name="nanmu:war exploded" />
+    </root>
+  </artifact>
+</component>

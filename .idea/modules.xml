@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/MyJdk8.iml" filepath="$PROJECT_DIR$/.idea/MyJdk8.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/message/message.iml" filepath="$PROJECT_DIR$/message/message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nanmu/nanmu.iml" filepath="$PROJECT_DIR$/nanmu/nanmu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nanmu-public/nanmupublic.iml" filepath="$PROJECT_DIR$/nanmu-public/nanmupublic.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream/stream.iml" filepath="$PROJECT_DIR$/stream/stream.iml" />
     </modules>
   </component>

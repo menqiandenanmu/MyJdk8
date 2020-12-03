@@ -1,0 +1,30 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        timeout: 15000
+        group: OWN
+        prefix: icCard
+        file-extension: yml
+        server-addr: pwnacos-sendinfo.com:8848
+        ext-config:
+          - data-id: icCard-datasource.yml
+            group: OWN
+            refresh: true
+          - data-id: pw-redis.yml
+            group: SHARED
+            refresh: true
+          - data-id: dubbo.yml
+            group: SHARED
+            refresh: true
+          - data-id: rabbitmq.yml
+            group: SHARED
+            refresh: true
+      discovery:
+        server-addr: pwnacos-sendinfo.com:8848
+dubbo:
+  protocol:
+    port: 20889
+  consumer:
+    check: false
+    validation: true
